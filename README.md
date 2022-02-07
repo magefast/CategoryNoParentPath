@@ -13,6 +13,8 @@ site.com/parent1cat/parent2cat/currentCat.html
 With Extension URL of category will be like:
 site.com/currentCat.html
 
+<br>
+<br>
 
 * This solution very helpfull for SEO optimization
 * Skip confusion after moving categories

@@ -1,4 +1,4 @@
-# CategoryNoParentPath
+# Magento 2 extension. Strekoza_CategoryNoParentPath
 Solution for set Url of Category without Parent path.
 
 Idea for module from Stackoverflow Answer 

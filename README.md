@@ -16,6 +16,8 @@ site.com/parent1cat/parent2cat/currentCat.html
 With Extension URL of category will be like:
 site.com/currentCat.html
 
+Also can set URL-key like parent1cat/parent2cat/currentCat with the slash (/)  
+
 <br>
 <br>
 

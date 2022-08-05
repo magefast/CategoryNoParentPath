@@ -1,8 +1,8 @@
 # Magento 2 extension. 
-###Strekoza_CategoryNoParentPath 
-###Strekoza_AvailableSlashForCategoryUrlKey
+### Strekoza_CategoryNoParentPath 
+### Strekoza_AvailableSlashForCategoryUrlKey
 
-##Solution for set Url of Category without Parent path.
+## Solution for set Url of Category without Parent path.
 
 Idea for module from Stackoverflow Answer 
 - https://magento.stackexchange.com/a/258784/9951

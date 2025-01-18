@@ -26,6 +26,12 @@ class CategoryUrlPathGenerator extends Magento_CategoryUrlPathGenerator
         }
 
         $path = $category->getUrlPath();
+
+        /**
+         * Fix for exist URL
+         */
+        $path = null;
+
         if ($path !== null && !$category->dataHasChangedFor('url_key') && !$category->dataHasChangedFor('parent_id')) {
             return $path;
         }

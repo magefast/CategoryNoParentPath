@@ -1,0 +1,21 @@
+{
+  "name": "strekoza/module-category-no-parent-path",
+  "description": "Magento extension. Solution for set Url of Category without Parent path",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "magefast",
+      "email": "magefast@gmail.com"
+    }
+  ],
+  "require": {
+    "strekoza/module-available-slash-for-categor-url-key": "v1.2"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Strekoza\\CategoryNoParentPath\\": ""
+    }
+  }
+}

@@ -6,4 +6,10 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="Magento\CatalogUrlRewrite\Model\CategoryUrlPathGenerator"
                 type="Strekoza\CategoryNoParentPath\Model\CategoryUrlPathGenerator"/>
+    <preference for="Magento\UrlRewrite\Model\Storage\DbStorage"
+                type="Strekoza\CategoryNoParentPath\Model\Storage\DbStorage"/>
+    <type name="Magento\CatalogUrlRewrite\Model\ProductScopeRewriteGenerator">
+        <plugin name="plugin_category_url"
+                type="Strekoza\CategoryNoParentPath\Plugin\ProductScopeRewriteGeneratorPlugin"/>
+    </type>
 </config>

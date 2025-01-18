@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-namespace Strekoza\Model;
+namespace Strekoza\CategoryNoParentPath\Model;
 
 use Magento\Catalog\Api\Data\CategoryInterface;
 use Magento\Catalog\Model\Category;
@@ -26,6 +26,12 @@ class CategoryUrlPathGenerator extends Magento_CategoryUrlPathGenerator
         }
 
         $path = $category->getUrlPath();
+
+        /**
+         * Fix for exist URL
+         */
+        $path = null;
+
         if ($path !== null && !$category->dataHasChangedFor('url_key') && !$category->dataHasChangedFor('parent_id')) {
             return $path;
         }

@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-namespace Strekoza\CategoryNoParentPath\Model;
+namespace Strekoza\Model;
 
 use Magento\Catalog\Api\Data\CategoryInterface;
 use Magento\Catalog\Model\Category;

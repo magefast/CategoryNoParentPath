@@ -24,3 +24,6 @@ Also can set URL-key like parent1cat/parent2cat/currentCat with the slash (/)
 * This solution very helpfull for SEO optimization
 * Skip confusion after moving categories
 
+
+## Install with Composer
+`composer require strekoza/module-category-no-parent-path`
